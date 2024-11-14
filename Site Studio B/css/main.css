@@ -1,4 +1,98 @@
 body{
     background-color: rgb(118, 191, 234);
     --cor-clara: #fff;
+    --cor-escura: black;
+    --cor-escura2: #e1cfae;
+    --cor-texto: #303030;
+    --familia-tipo: "Open Sans", "sans-serif";
+}
+
+header{
+    display: flex;
+    padding: 1em 2em;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: var(--cor-clara);
+}
+
+.container-menu{
+    display: flex;
+    gap: 2em;   
+}
+
+.menu-item{
+    color: var(--cor-escura);
+    font-size: 22px;
+}
+
+.secao-principal{
+    background-color: var(--cor-escura2);
+}
+
+.titulo-principal{
+    color: var(--cor-clara);
+    text-align: center;
+    padding: .5em 0;
+    font-size: 2.5em;
+    font-family: var(--familia-tipo);
+    line-height: 1.2em;
+
+}
+
+.foto-principal{
+    width: 100%;
+}
+
+.sobre-nos{
+    background-color: var(--cor-clara);
+    padding: 2em 0;
+}
+
+.sub-titulo{
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    font-family: var(--familia-tipo);
+    color: var(--cor-texto);
+}
+
+.paragrafo-principal{
+    padding: 0 6em;
+    text-align: center;
+    font-family: var(--familia-tipo);
+    color: var(--cor-texto);
+}
+
+.projetos{
+    padding: 2em 0;
+    background-color: var(--cor-clara);   
+}
+
+.img-projeto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-p{
+    width: 33.15%;
+}
+/* container perguntas frequentes */
+
+.container-perguntas-frequentes{
+    height: 15em;
+    display: flex;
+    padding: 1em 2em;
+    align-items: center;
+    background-color: var(--cor-escura2);
+}
+
+.perguntas-frequentes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    flex-direction: column;
+}
+
+
+
 
